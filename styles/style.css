@@ -38,3 +38,44 @@ header {
 }
 
 /* header style end */
+/* main style start */
+main {
+    margin: 0 230px;
+}
+
+.section_title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+/* main style end */
+/* failures section style start */
+.failures_container {
+    margin: 130px 0;
+    display: flex;
+    gap: 87px;
+    justify-content: space-between;
+    align-items: center;
+}
+.failures_image img{
+    width: 100%;
+}
+.failures_text{
+    width: 416px;
+}
+.failures_description{
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.failures_text ul{
+    list-style: none;
+}
+.failures_text ul li{
+    color: #444343;
+    margin-bottom: 8px;
+
+}
+
+/* failures section style end */
