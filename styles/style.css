@@ -95,7 +95,7 @@ main {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-   
+
 }
 
 .plan_title {
@@ -104,6 +104,7 @@ main {
     color: #151414;
     margin: 16px 0;
 }
+
 .plan_description {
     font-weight: 500;
     font-size: 18px;
@@ -111,7 +112,7 @@ main {
 }
 
 /* plan section style end */
-.mindset{
+.mindset {
     background-image: url(../images/watch.png);
     background-repeat: no-repeat;
     margin-bottom: 130px;
@@ -120,19 +121,69 @@ main {
     position: relative;
     z-index: 1;
 }
-.mindset::after{
+
+.mindset::after {
     content: '';
     position: absolute;
-    left:0;
+    left: 0;
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #005FAC, transparent);
+    background: linear-gradient(90deg, #005facd1, transparent);
     border-radius: 10px;
     z-index: -1;
 }
-.mindset .section_title{
+
+.mindset .section_title {
     width: 460px;
     color: #fff;
     margin-bottom: 24px;
+}
+
+footer {
+    background: #151414;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_text {
+    width: 485px;
+}
+
+.footer_text .section_title {
+    color: #fff;
+}
+
+.footer_text .footer_description {
+    color: #fff;
+    margin-top: 16px;
+}
+
+.footer_icon {
+    margin-top: 20px;
+}
+
+form {
+    width: 325px;
+}
+
+form h2 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+form input[type="email"] {
+    width: 100%;
+    background: #000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 21px;
+    margin-bottom: 16px;
+}
+form .btn_primary{
+    color: #fff;
+    background: #005FAC;
 }
