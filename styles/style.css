@@ -182,6 +182,7 @@ form input[type="email"] {
     border-radius: 5px;
     padding: 21px;
     margin-bottom: 16px;
+    color: #fff;
 }
 form .btn_primary{
     color: #fff;
