@@ -58,24 +58,81 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-.failures_image img{
+
+.failures_image img {
     width: 100%;
 }
-.failures_text{
+
+.failures_text {
     width: 416px;
 }
-.failures_description{
+
+.failures_description {
     color: #444343;
     margin-top: 24px;
     margin-bottom: 16px;
 }
-.failures_text ul{
+
+.failures_text ul {
     list-style: none;
 }
-.failures_text ul li{
+
+.failures_text ul li {
     color: #444343;
     margin-bottom: 8px;
 
 }
 
 /* failures section style end */
+/* plan section style start */
+.plan {
+    margin: 130px 0;
+    text-align: center;
+}
+
+
+.plan_container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.plan_title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    margin: 16px 0;
+}
+.plan_description {
+    font-weight: 500;
+    font-size: 18px;
+    color: #737272;
+}
+
+/* plan section style end */
+.mindset{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin-bottom: 130px;
+    border-radius: 10px;
+    padding: 60px 64px;
+    position: relative;
+    z-index: 1;
+}
+.mindset::after{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #005FAC, transparent);
+    border-radius: 10px;
+    z-index: -1;
+}
+.mindset .section_title{
+    width: 460px;
+    color: #fff;
+    margin-bottom: 24px;
+}
