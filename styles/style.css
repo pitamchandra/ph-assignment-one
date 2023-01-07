@@ -17,13 +17,38 @@
 header {
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
-    background-position: center top;
-    padding: 216px 230px 166px 653px;
+    background-position: center bottom;
+    padding: 40px 230px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    font-size: 30px;
+    color: #fff;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 40px;
+}
+nav ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+
 }
 
 .header_content {
     text-align: right;
     color: #FFFFFF;
+    padding-left: 379px;
+    margin: 100px 0;
 }
 
 .header_title {
@@ -38,6 +63,7 @@ header {
 }
 
 /* header style end */
+
 /* main style start */
 main {
     margin: 0 230px;
@@ -50,6 +76,7 @@ main {
 }
 
 /* main style end */
+
 /* failures section style start */
 .failures_container {
     margin: 130px 0;
@@ -84,6 +111,7 @@ main {
 }
 
 /* failures section style end */
+
 /* plan section style start */
 .plan {
     margin: 130px 0;
@@ -112,6 +140,8 @@ main {
 }
 
 /* plan section style end */
+
+/* mindset style start */
 .mindset {
     background-image: url(../images/watch.png);
     background-repeat: no-repeat;
@@ -139,6 +169,8 @@ main {
     color: #fff;
     margin-bottom: 24px;
 }
+/* mindset style end */
+/* footer style start */
 
 footer {
     background: #151414;
@@ -188,3 +220,4 @@ form .btn_primary{
     color: #fff;
     background: #005FAC;
 }
+/* footer style end */
